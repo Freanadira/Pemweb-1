@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, footer {
+    background-color: khaki;
+    height: 20vh;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    width: 20vw;
+}
+
+article {
+    width: 60vw;
+    background-color: white;
+}
+
+aside {
+    background-color: aqua;
+    width: 20vw;
+}
+
+header, footer, article, nav, aside {
+    padding: 1em;
+}    
+
+#main {
+    display: flex;
+    height: 60vh;
+}
+
+.semua{
+    display: flex;
+    flex-direction: row;
+}
