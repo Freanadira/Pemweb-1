@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjumlahan Bilangan</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .simbol {
+            font-size: 1.5em;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Penjumlahan Bilangan</h2>
+
+    <label for="bill1"></label>
+    <input type="number" id="bill1" onchange="hitung()">
+
+    <br>
+    <span class="simbol">+</span>
+    <br>
+
+    <label for="bill2"></label>
+    <input type="number" id="bill2" onchange="hitung()">
+
+    <br>
+    <span class="simbol">=</span>
+    <br>
+
+    <label for="hasil"></label>
+    <input type="text" id="hasil" readonly>
+
+    <script>
+        function hitung() {
+            //mengambil nilai dari kedua inputan
+            var bill1 = parseFloat(document.getElementById("bill1").value) || 0;
+            var bill2 = parseFloat(document.getElementById("bill2").value) || 0;
+
+            //hitung jumlahnya
+            var hasil = bill1 + bill2;
+
+            //menampilkan hasil input
+            document.getElementById("hasil").value = hasil;
+        }
+    </script>
+</body>
+</html>
