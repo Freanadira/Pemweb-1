@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Untree.co">
+    <link rel="shortcut icon" href="favicon.png">
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="bootstrap, bootstrap4" />
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="assets/css/tiny-slider.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>SITA</title>
+</head>
+
+<body>
+
+    <!-- Start Header/Navigation -->
+    <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
+
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">SITA</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
+                aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsFurni">
+                <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+                    <li><a class="nav-link" href="../index.html">Home</a></li>
+                    <li><a class="nav-link" href="jadwal.html">Jadwal</a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="daftarseminar.html">Daftar Seminar</a>
+                    </li>
+                    <li><a class="nav-link" href="#">Berita</a></li>
+                    <li><a class="nav-link" href="#">About</a></li>
+                </ul>
+
+                <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+                    <li><a class="nav-link" href="login.html"><img src="assets/images/user.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+    <!-- End Header/Navigation -->
+
+    <!-- Start Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5 mb-2">
+                    <div class="intro-excerpt">
+                        <h1>Daftar Seminar TA</h1>
+                    </div>
+                    <div class="h5">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Daftar Seminar</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Hero Section -->
+
+    <!-- Awal Daftar -->
+    <div class="container mt-5">
+        <h2 class="section-title">From Daftar Seminar</h2>
+        <div class=" row border border-black mt-3 mb-5 p-3 "
+            style="border: 1px solid #bbb; border-radius: 5px;">
+            <div class="fluid col-6">
+                <div class="mb-2 row">
+                    <label for="NIM" class="col-4 col-form-label">NIM :</label>
+                    <div class="col-8">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="Nama" class="col-4 col-form-label">Nama :</label>
+                    <div class="col-8">
+                        <input type="text" class="form-control" id="Nama">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="Prodi" class="col-4 col-form-label">Prodi :</label>
+                    <div class="col-8">
+                        <select name="Prodi" id="Prodi" style="height: 35px;">
+                            <option value="Teknik Informatika">Tekhnik Informatika</option>
+                            <option value="SI">Sistem Informasi</option>
+                            <option value="BD">Bisnis Digital</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="Tanggal Seminar" class="col-4 col-form-label">Tanggal Seminar:</label>
+                    <div class="col-8 align-items-center row" style="margin-left: 2px;">
+                        <input type="date" class="col-4" style="height: 35px;">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="jam" class="col-4 col-form-label">Jam Seminar :</label>
+                    <div class="col-8 align-items-center row" style="margin-left: 2px;">
+                        <input type="time" class="col-4" style="height: 35px;">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="ruangan" class="col-4 col-form-label">Ruangan :</label>
+                    <div class="col-8">
+                        <input type="text" class="form-control" id="ruangan">
+                    </div>
+                </div>
+            </div>
+            <div class="fluid col-6">
+                <div class="mb-2 row">
+                    <label for="judul TA" class="col-4 col-form-label">Judul TA :</label>
+                    <div class="col-8">
+                        <textarea class="form-control" rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="mb-2 row  align-items-center ">
+                    <label for="inputPassword" class="col-4 col-form-label ">Password :</label>
+                    <div class="col-8">
+                        <input type="password" class="form-control" id="inputPassword">
+                    </div>
+                </div>
+                <div class="mb-2 row">
+                    <label for="seminar" class="col-4 col-form-label">Seminar :</label>
+                    <div class="col-8">
+                        <select name="seminar" id="seminar" style="height: 35px;">
+                            <option value="proposal">Proposal</option>
+                            <option value="SI">Sistem Informasi</option>
+                            <option value="BD">Bisnis Digital</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-2 row">
+                    <label for="pembimbing" class="col-4 col-form-label">Pembimbing :</label>
+                    <div class="col-8">
+                        <select name="Pembimbing" id="Pembimbing" style="height: 35px;">
+                            <option value="Sirojul munir">Sirojul Munir S.SI, M.KOM</option>
+                            <option value="Reza">Reza Maulana</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-2 row">
+                    <label for="Penguji 1" class="col-4 col-form-label">Penguji 1 :</label>
+                    <div class="col-8">
+                        <select name="Penguji 1" id="Penguji 1" style="height: 35px;">
+                            <option value="ahmad">Ahmad Rio M.SI</option>
+                            <option value="farhan">Farhan</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="mb-2 row">
+                    <label for="penguji 2" class="col-4 col-form-label">Penguji 2 :</label>
+                    <div class="col-8">
+                        <select name="Penguji 2" id="Penguji 2" style="height: 35px;">
+                            <option value="amalia">Amalia Rahmah M.T</option>
+                            <option value="Reza">Reza Maulana</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4 mb-2 mt-3">
+                <a href="daftarseminar.html" class="btn">Daftar</a>
+            </div>
+        </div>
+    </div>
+    <!-- End daftar -->
+
+    <!-- Start Footer Section -->
+    <footer class="footer-section">
+        <div class="container relative">
+            <div class="row g-5 mb-5">
+                <div class="col-lg-4">
+                    <div class="mb-4 footer-logo-wrap"><a href="../index.html" class="footer-logo">SITA</a></div>
+                    <p class="mb-4">SITA merupakan sistem informasi untuk mempermudah pendaftaran peserta seminar dan
+                        membantu pendaftaran seminar TA secara online serta dapat melihat jadwal seminar TA dengan
+                        mudah.</p>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row links-wrap">
+                        <ul class="list-unstyled">
+                            <li><a href="jadwal.html">Jadwal</a></li>
+                            <li><a href="daftarseminar.html">Daftar Seminar</a></li>
+                            <li><a href="#">Berita</a></li>
+                            <li><a href="#">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="border-top copyright">
+                <p class="mb-0 text-center text-lg-start">Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash;
+                    Designed with love by <a href="https://untree.co">Untree.co</a>
+                    <!-- License information: https://untree.co/license/ -->
+                </p>
+            </div>
+
+        </div>
+    </footer>
+    <!-- End Footer Section -->
+
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
